@@ -1,0 +1,78 @@
+.signup-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signup-container .header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container .header p{
+    font-size: 8rem;
+    font-family: var(--source-sans-font);
+}
+
+.signup-container .header p span{
+    color: var(--header-color);
+}
+
+.signup-container .auth-form-container{
+    width: 50%;
+    background: var(--asphalt-color);
+}
+
+
+.signup-container .auth-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.signup-container .auth-form-container p{
+    font-size: 5rem;
+    text-align: center;
+    color: var(--subheader-color);
+    font-family: var(--source-sans-font);
+}
+
+.signup-container .auth-form-container .signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 50%;
+    height: 55vh;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 7px;
+    padding-bottom: 25px;
+}
+
+.signup-container .auth-form-container .signup-form .signup-image{
+    object-fit: contain;
+    max-width: 65%;
+}
+
+.signup-container .auth-form-container .signup-form input{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.signup-container .auth-form-container .signup-form .submit-button{
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: none;
+    background: var(--header-color);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+.signup-container .auth-form-container .signup-form .submit-button:hover{
+    background-color: var(--ufo-green);   transition: 0.4s;
+}

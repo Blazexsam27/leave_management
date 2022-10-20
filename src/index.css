@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');
+
+:root{
+  --ubuntu-font: 'Ubuntu', sans-serif;
+  --source-sans-font: 'Source Sans Pro', sans-serif;
+  --bebase-neue: 'Bebas Neue', cursive;
+  --titllium-ital: 'Titillium Web', sans-serif;
+
+  --header-color: #2ecc71;
+  --subheader-color: #fff;
+  --asphalt-color: #34495e;
+  --ufo-green: #2ed573;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +28,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+@media (max-width: 768px){
+  html{
+    font-size: 50%;
+  }
 }
