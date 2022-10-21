@@ -15,3 +15,5 @@ app.get("/", (req, res) => {
 app.listen(8000, () => {
   console.log("Listening at port 8000");
 });
+
+app.use("/api/auth", require("./routes/user"));
