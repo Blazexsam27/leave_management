@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
 const leaveSchema = mongoose.Schema({
-  startDate: Date,
-  endDate: Date,
+  startDate: { type: Date, default: null },
+  endDate: { type: Date, default: null },
   reason: { type: String, default: "NA" },
 });
 
